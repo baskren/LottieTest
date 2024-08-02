@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LottieTest", "LottieTest\LottieTest.csproj", "{E3973F22-2DA8-4AE9-AC8C-33B2655F9E4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A24050EE-54C4-46FF-BEE4-3F9F9485AA79}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3973F22-2DA8-4AE9-AC8C-33B2655F9E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3973F22-2DA8-4AE9-AC8C-33B2655F9E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3973F22-2DA8-4AE9-AC8C-33B2655F9E4C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E3973F22-2DA8-4AE9-AC8C-33B2655F9E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3973F22-2DA8-4AE9-AC8C-33B2655F9E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3973F22-2DA8-4AE9-AC8C-33B2655F9E4C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BD174AC-7A1E-46D5-B18D-083A66770DB2}
+	EndGlobalSection
+EndGlobal

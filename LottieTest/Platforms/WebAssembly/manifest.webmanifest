@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "LottieTest",
+  "display": "standalone",
+  "name": "LottieTest",
+  "short_name": "LottieTest",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
