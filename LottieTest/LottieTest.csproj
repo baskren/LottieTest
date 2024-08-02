@@ -7,6 +7,10 @@
       net8.0-browserwasm;
       net8.0-desktop
     </TargetFrameworks>
+    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows')) or '$(EnableWindowsTargeting)' == 'true'">
+      $(TargetFrameworks);
+      net8.0-windows10.0.19041
+    </TargetFrameworks>
 
     <OutputType>Exe</OutputType>
     <UnoSingleProject>true</UnoSingleProject>
@@ -43,13 +47,12 @@
     </UnoFeatures>
 
   </PropertyGroup>
-  
-  
+
+
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>false</MtouchDebug>
     <IOSDebugOverWiFi>false</IOSDebugOverWiFi>
-    <AndroidSupportedAbis>armeabi-v7a;x86;arm64-v8a;x86_64</AndroidSupportedAbis>
   </PropertyGroup>
 
 
